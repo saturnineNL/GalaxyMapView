@@ -1,0 +1,40 @@
+﻿<UserControl x:Name="GalaxyMap1"
+             x:Class="GalaxyMapView.UserControls.GalaxyMap"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:GalaxyMapView.UserControls"
+             mc:Ignorable="d"
+             d:DesignHeight="570"
+             d:DesignWidth="570">
+    <Grid x:Name="GalaxyMapGrid"
+          Background="#FF151821"
+          Margin="0">
+        <Label x:Name="lb1"
+               Content="Label"
+               HorizontalAlignment="Left"
+               Margin="10,10,0,0"
+               VerticalAlignment="Top"
+               Foreground="White"
+               Width="550" />
+        <!--<Canvas x:Name="StarDisplay"
+                HorizontalAlignment="Left"
+                Height="570"
+                VerticalAlignment="Top"
+                Width="570"
+                Background="#FF090829"
+                Margin="0" />-->
+        <!--<Canvas x:Name="OverlayDisplay"
+                HorizontalAlignment="Center"
+                Height="100"
+                VerticalAlignment="Center"
+                Width="100"
+                Background="#FF234BB9"
+                Margin="285">-->
+
+
+        <!--</Canvas>-->
+
+    </Grid>
+</UserControl>
